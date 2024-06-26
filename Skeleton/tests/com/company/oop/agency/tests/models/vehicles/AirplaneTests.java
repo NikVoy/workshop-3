@@ -54,7 +54,7 @@ public class AirplaneTests {
                 () -> assertEquals(VALID_AIRPLANE_PASSENGER_CAPACITY, airplane.getPassengerCapacity()),
                 () -> assertEquals(VALID_AIRPLANE_PRICE, airplane.getPricePerKilometer()),
                 () -> assertTrue(airplane.hasFreeFood()),
-                () -> assertEquals(VehicleType.AIR, airplane.getType())
+                () -> assertEquals(VehicleType.AIR, airplane.getVehicleType())
         );
     }
 

@@ -67,7 +67,7 @@ public class TrainTests {
                 () -> assertEquals(VALID_TRAIN_PASSENGER_CAPACITY, train.getPassengerCapacity()),
                 () -> assertEquals(VALID_TRAIN_PRICE, train.getPricePerKilometer()),
                 () -> assertEquals(VALID_CARTS, train.getCarts()),
-                () -> assertEquals(VehicleType.LAND, train.getType())
+                () -> assertEquals(VehicleType.LAND, train.getVehicleType())
         );
     }
 

@@ -49,7 +49,7 @@ public class BusTests {
                 () -> assertEquals(1, bus.getId()),
                 () -> assertEquals(VALID_BUS_PASSENGER_CAPACITY, bus.getPassengerCapacity()),
                 () -> assertEquals(VALID_BUS_PRICE, bus.getPricePerKilometer()),
-                () -> assertEquals(VehicleType.LAND, bus.getType())
+                () -> assertEquals(VehicleType.LAND, bus.getVehicleType())
         );
     }
 

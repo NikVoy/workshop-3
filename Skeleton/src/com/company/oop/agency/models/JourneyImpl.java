@@ -72,7 +72,7 @@ public class JourneyImpl implements Journey {
                 startLocation,
                 destination,
                 distance,
-                vehicle.getType(),
+                vehicle.getVehicleType(),
                 calculateTravelCosts());
     }
 

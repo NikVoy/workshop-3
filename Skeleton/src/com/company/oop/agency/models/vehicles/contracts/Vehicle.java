@@ -6,7 +6,7 @@ import com.company.oop.agency.models.vehicles.VehicleType;
 
 public interface Vehicle extends Identifiable, Printable {
 
-    VehicleType getType();
+    VehicleType getVehicleType();
 
     int getPassengerCapacity();
 
