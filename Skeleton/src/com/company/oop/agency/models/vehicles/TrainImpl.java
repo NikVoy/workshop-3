@@ -30,7 +30,7 @@ public class TrainImpl extends VehicleBase implements Train {
     }
 
     private void setCarts(int carts) {
-        ValidationHelper.validateValueInRangeInt(
+        ValidationHelper.validateValueInRange(
                 carts,
                 CARTS_MIN_VALUE,
                 CARTS_MAX_VALUE,
